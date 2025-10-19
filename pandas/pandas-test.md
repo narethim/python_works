@@ -1,0 +1,55 @@
+# Instruction on using `pandas` library
+
+Open `Anaconda cmd` terminal on window or a terminal cmd on Linux
+
+```sh
+(base) $ conda env list
+
+# Create environment 'envpandas'
+(base) $ conda create -n envpandas python=3.13
+(base) $ conda activate envpandas
+
+# Verify python version
+(envpandas) $ python -V
+Python 3.13.7
+
+(envpandas) $ conda list 
+(envpandas) $ conda list | wc -l
+35
+
+(envpandas) $ conda env list
+
+# Install additional libraries
+
+(envpandas) $ conda install pandas
+(envpandas) $ conda list | wc -l
+52
+
+(envpandas) $ conda install numpy
+(envpandas) $ conda list | wc -l
+52
+```
+
+## Go to work area
+
+```sh
+# On Linux
+
+cd ~/Desktop/python_work
+
+# On Window
+
+E:
+cd Test\python_work
+
+$ python
+>>> import pandas as pd
+>>> pd.__version__
+'2.3.3'
+>>> exit()
+```
+
+## References
+
+A Gentle Introduction to Pandas Data Analysis (on Kaggle)
+https://www.youtube.com/watch?v=_Eb0utIRdkw
