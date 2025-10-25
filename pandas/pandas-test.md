@@ -51,5 +51,7 @@ $ python
 
 ## References
 
-A Gentle Introduction to Pandas Data Analysis (on Kaggle)
+* A Gentle Introduction to Pandas Data Analysis (on Kaggle)
 https://www.youtube.com/watch?v=_Eb0utIRdkw
+
+* Pandas Fundamentals playlist [Pandas Fundamentals](https://www.youtube.com/watch?v=8gGNXQgCmIE&list=PLp0BA-8NZ4bgNDMxQojvn6eg71jaaRaYZ) - Dan Kornas
