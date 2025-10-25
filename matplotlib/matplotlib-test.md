@@ -11,7 +11,7 @@ Open `Anaconda cmd` terminal on window or a terminal cmd on Linux
 
 # Verify python version
 (envmatplotlib) $ python -V
-Python 3.13.7
+Python 3.13.9
 
 (envmatplotlib) $ conda list 
 (envmatplotlib) $ conda list | wc -l
@@ -21,14 +21,26 @@ Python 3.13.7
 
 # Install additional libraries
 
-(envmatplotlib) $ conda install pandas
+(envmatplotlib) $ conda install matplotlib
 (envmatplotlib) $ conda list | wc -l
 52
 
 (envmatplotlib) $ conda install numpy
 (envmatplotlib) $ conda list | wc -l
 52
+
+# Install 'Jupyter Notebook'
+(envmatplotlib) $ conda install notebook
+
+(envmatplotlib) $ jupyter notebook
+
+# Install 'JupyterLab'
+(envmatplotlib) $ conda install jupyterlab
+
+(envmatplotlib) $ jupyter lab
 ```
+
+
 
 ## Go to work area
 
