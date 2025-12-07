@@ -5,6 +5,7 @@
 ## seaborn
 
 - Main [https://seaborn.pydata.org/](https://seaborn.pydata.org/)
+- Tutorial [https://seaborn.pydata.org/tutorial.html](https://seaborn.pydata.org/tutorial.html)
 
 ## YouTube videos
 
